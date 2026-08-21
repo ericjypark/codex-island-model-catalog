@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T03:17:08Z",
+  "generatedAt": "2026-08-21T03:17:07Z",
   "source": "litellm + overrides",
   "models": {
     "claude-3-7-sonnet": {
@@ -429,6 +429,13 @@
       "outputPerMillion": 30,
       "cacheCreationPerMillion": 6.25,
       "cacheReadPerMillion": 0.5
+    },
+    "gpt-5.6-cyber": {
+      "displayName": "GPT-5.6-cyber",
+      "inputPerMillion": 12.5,
+      "outputPerMillion": 75,
+      "cacheCreationPerMillion": 15.625,
+      "cacheReadPerMillion": 1.25
     },
     "gpt-5.6-luna": {
       "displayName": "GPT-5.6 Luna",
