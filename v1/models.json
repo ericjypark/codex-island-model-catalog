@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T21:17:08Z",
+  "generatedAt": "2026-09-06T03:17:04Z",
   "source": "litellm + overrides",
   "models": {
     "claude-3-7-sonnet": {
@@ -65,6 +65,13 @@
       "outputPerMillion": 50,
       "cacheCreationPerMillion": 12.5,
       "cacheReadPerMillion": 1
+    },
+    "claude-mythos-5-1": {
+      "displayName": "Mythos 5.1",
+      "inputPerMillion": 10,
+      "outputPerMillion": 50,
+      "cacheCreationPerMillion": 12.5,
+      "cacheReadPerMillion": 0.25
     },
     "claude-mythos-preview": {
       "displayName": "Mythos preview",
