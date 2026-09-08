@@ -42,6 +42,8 @@ a value — both inputs are public and the rules are below.
 2. Keep entries whose `mode` is `chat` or `responses`, whose id contains no
    `/` (that drops `azure/`, `bedrock/`, `vertex_ai/` re-listings of the same
    model), and whose id matches a pattern in [`config.json`](config.json).
+   The `gpt-[0-9]*` pattern covers numbered GPT generations, including GPT-6
+   and future generations, so a major-version launch needs no filter update.
 3. Convert per-token prices to per-million by multiplying by 1,000,000, then
    round to 8 decimal places. The rounding exists so a price reads as `0.2`
    rather than `0.19999999999999998` — binary floating point leaves residue
