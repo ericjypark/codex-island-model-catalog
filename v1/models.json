@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T21:17:03Z",
+  "generatedAt": "2026-09-28T21:17:03Z",
   "source": "litellm + overrides",
   "models": {
     "claude-3-7-sonnet": {
@@ -166,6 +166,13 @@
     },
     "claude-sonnet-5": {
       "displayName": "Sonnet 5",
+      "inputPerMillion": 2,
+      "outputPerMillion": 10,
+      "cacheCreationPerMillion": 2.5,
+      "cacheReadPerMillion": 0.2
+    },
+    "claude-sonnet-5-5": {
+      "displayName": "Sonnet 5.5",
       "inputPerMillion": 2,
       "outputPerMillion": 10,
       "cacheCreationPerMillion": 2.5,
