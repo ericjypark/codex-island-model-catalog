@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T21:17:03Z",
+  "generatedAt": "2026-09-29T21:17:04Z",
   "source": "litellm + overrides",
   "models": {
     "claude-3-7-sonnet": {
@@ -744,6 +744,13 @@
       "outputPerMillion": 10,
       "cacheCreationPerMillion": 2.5,
       "cacheReadPerMillion": 0.2
+    },
+    "gpt-6.1-sol": {
+      "displayName": "GPT-6.1-sol",
+      "inputPerMillion": 2,
+      "outputPerMillion": 10,
+      "cacheCreationPerMillion": 2.5,
+      "cacheReadPerMillion": 0.1
     },
     "o1": {
       "displayName": "O1",
