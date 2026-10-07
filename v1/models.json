@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T21:17:04Z",
+  "generatedAt": "2026-10-07T21:17:08Z",
   "source": "litellm + overrides",
   "models": {
     "claude-3-7-sonnet": {
@@ -58,6 +58,13 @@
       "outputPerMillion": 5,
       "cacheCreationPerMillion": 1.25,
       "cacheReadPerMillion": 0.1
+    },
+    "claude-haiku-5-5": {
+      "displayName": "Haiku 5.5",
+      "inputPerMillion": 0.1,
+      "outputPerMillion": 0.5,
+      "cacheCreationPerMillion": 0.125,
+      "cacheReadPerMillion": 0.01
     },
     "claude-mythos-5": {
       "displayName": "Mythos 5",
@@ -176,7 +183,7 @@
       "inputPerMillion": 2,
       "outputPerMillion": 10,
       "cacheCreationPerMillion": 2.5,
-      "cacheReadPerMillion": 0.2
+      "cacheReadPerMillion": 0.1
     },
     "gpt-3.5-turbo": {
       "displayName": "GPT-3.5-turbo",
