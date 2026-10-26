@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T21:17:07Z",
+  "generatedAt": "2026-10-26T21:17:09Z",
   "source": "litellm + overrides",
   "models": {
     "claude-3-7-sonnet": {
@@ -765,6 +765,13 @@
       "outputPerMillion": 10,
       "cacheCreationPerMillion": 2.5,
       "cacheReadPerMillion": 0.1
+    },
+    "gpt-6.1-terra": {
+      "displayName": "GPT-6.1-terra",
+      "inputPerMillion": 1,
+      "outputPerMillion": 5,
+      "cacheCreationPerMillion": 1.25,
+      "cacheReadPerMillion": 0.05
     },
     "o1": {
       "displayName": "O1",
