@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T21:17:09Z",
+  "generatedAt": "2026-10-30T21:17:08Z",
   "source": "litellm + overrides",
   "models": {
     "claude-3-7-sonnet": {
@@ -751,6 +751,13 @@
       "outputPerMillion": 0.5,
       "cacheCreationPerMillion": 0.125,
       "cacheReadPerMillion": 0.01
+    },
+    "gpt-6-rosalind": {
+      "displayName": "GPT-6-rosalind",
+      "inputPerMillion": 15,
+      "outputPerMillion": 75,
+      "cacheCreationPerMillion": 18.75,
+      "cacheReadPerMillion": 1.5
     },
     "gpt-6-sol": {
       "displayName": "GPT-6-sol",
