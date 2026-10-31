@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T21:17:08Z",
+  "generatedAt": "2026-10-31T21:17:32Z",
   "source": "litellm + overrides",
   "models": {
     "claude-3-7-sonnet": {
@@ -743,6 +743,13 @@
       "inputPerMillion": 10,
       "outputPerMillion": 50,
       "cacheCreationPerMillion": 12.5,
+      "cacheReadPerMillion": 1
+    },
+    "gpt-6-astra-law": {
+      "displayName": "GPT-6-astra-law",
+      "inputPerMillion": 10,
+      "outputPerMillion": 50,
+      "cacheCreationPerMillion": 10,
       "cacheReadPerMillion": 1
     },
     "gpt-6-luna": {
